@@ -10,7 +10,9 @@ namespace CSD3354_WEEK_04
     {
         static void Main(string[] args)
         {
-
+            //countryside c = new countryside();
+            //c.run();
+            (new learningexp()).run();
 
         }
     }
@@ -42,6 +44,8 @@ namespace CSD3354_WEEK_04
             c = toronto;
             Console.WriteLine(c.villagename);
 
+            Console.ReadKey();
+
         }
     }
 
@@ -56,7 +60,7 @@ namespace CSD3354_WEEK_04
             maple = new village();
             maple.villagename = "toronto";
             maple.nextvillage = toronto;
-
+            
         }
 
     }
