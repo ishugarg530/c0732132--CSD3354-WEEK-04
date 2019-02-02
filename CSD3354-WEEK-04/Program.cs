@@ -23,7 +23,27 @@ namespace CSD3354_WEEK_04
 
 
     }
+    class learningexp
+    {
+        public void run()
+        {
+            village toronto;
+            toronto = new village();
+            village a, b, c;
+            toronto.villagename = "version a";
+            a = toronto;
+            Console.WriteLine(a.villagename);
+            toronto = new village();
+            toronto.villagename = "version b";
+            b = toronto;
+            Console.WriteLine(b.villagename);
+            toronto = new village();
+            toronto.villagename = "version c";
+            c = toronto;
+            Console.WriteLine(c.villagename);
 
+        }
+    }
 
     class countryside
     {
@@ -40,7 +60,5 @@ namespace CSD3354_WEEK_04
         }
 
     }
-
-
 
 }
